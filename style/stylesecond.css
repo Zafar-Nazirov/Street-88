@@ -1,0 +1,281 @@
+@import 'fonts.css';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #000;
+}
+
+.container {
+  max-width: 1145px;
+  padding: 0 15px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.header__nav-above {
+  background: #000;
+  border: 1px solid rgba(125, 115, 115, 0.5);
+  padding: 18px 0;
+}
+
+.header__nav-above-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__drive {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.header__drive a {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.header__link a {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.header__nav {
+  background: #000;
+
+}
+
+.header__nav-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list__link a {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
+  color: #FFFFFF;
+
+}
+
+.list__link {
+  padding: 24px 14px;
+  transition: 0.5s;
+}
+
+.list__link:hover {
+  background: rgba(105, 207, 23, 0.75);
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  padding: 6px 0;
+}
+
+.header__content {
+  position: relative;
+  height: 750px
+}
+
+.header__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.header__innercontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  gap: 18px;
+}
+
+.header__title {
+  font-family: 'Raleway';
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 85px;
+  color: #69CF17;
+}
+
+.header__subtitle {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 17px;
+  color: #69CF17;
+}
+
+.header__text {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+
+.header__price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__span {
+  padding: 33px 76px;
+  font-family: 'Raleway';
+  font-weight: 100;
+  font-size: 50px;
+  line-height: 25px;
+  text-align: right;
+  color: #FFFFFF;
+  background: rgba(105, 207, 23, 0.5);
+  backdrop-filter: blur(9px);
+}
+
+.header__btn {
+  padding: 15px 71px;
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
+  color: #FFFFFF;
+  background: linear-gradient(90deg, #69CF17 0%, #417D11 100%);
+  border-radius: 6px;
+}
+
+.header__price {
+  padding-top: 12px;
+}
+
+
+.main__bg {
+  background: url(../img/bg2.jpg) center center / cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__span {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 65px;
+  text-transform: uppercase;
+  color: rgba(105, 207, 23, 0.7);
+  text-shadow: 0px 0px 15px rgba(191, 171, 171, 0.4);
+}
+
+.main__text {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: justify;
+  color: #FFFFFF;
+  padding: 0 !important;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.main__black {
+  background: #000;
+  border: 1px solid rgba(125, 115, 115, 0.5);
+  backdrop-filter: blur(7.5px);
+}
+
+.main__black {
+  padding-top: 30px;
+}
+
+.main__lowertitle {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 40px;
+  color: #69CF17;
+}
+
+.main__white {
+  background: #FFFFFF;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.footer__phone a {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.footer__link a {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 81px 0;
+}
+
+.footer {
+  background: linear-gradient(180deg, #000000 0%, rgba(105, 207, 23, 0.5) 100%);
+}
+
+.main__map {
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+}
